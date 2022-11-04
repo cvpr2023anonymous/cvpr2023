@@ -21,7 +21,7 @@ $ pip install scipy
     ├── frames_C23                    
     ├── frames_C40                                  
     └── ...
-We need to extract frames from the deepfake videos and place it in the directory structure as described above. You might need to do small changes in the train.py, test.py and dataloader.py files if the directory structure is slightly different.
+We need to extract frames from the deepfake videos and place it in the directory structure as described above. You might need to do small changes in the train.py, test.py and dataset_processing.py files if the directory structure is slightly different.
 
 ## Training
 ```shell
