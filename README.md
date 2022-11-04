@@ -10,6 +10,18 @@ $ pip install sklearn
 $ pip install tqdm
 $ pip install scipy
 ```
+## Data Preparation
+    ├── frames_C0
+    │   ├── real          
+    │   ├── real_SetB         
+    │   └── real_SetC
+    │   ├── SetA         
+    │   └── SetB 
+    │   └── SetC 
+    ├── frames_C23                    
+    ├── frames_C40                                  
+    └── ...
+We need to extract frames from the deepfake videos and place it in the directory structure as described above. You might need to do small changes in the train.py, test.py and dataloader.py files if the directory structure is slightly different.
 
 ## Training
 ```shell
